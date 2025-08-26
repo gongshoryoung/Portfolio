@@ -26,17 +26,10 @@
 ---
 
 ## Repo Contents
-## Repo Contents
-- **/models**
-  - [Excel Model](models/myfitnesspal_ltv.xlsx)
-  - [Jupyter Notebook](models/ltv_analysis.ipynb)
-- **/visuals**
-  - [Churn Curve](visuals/churn_curve.png)
-  - [Revenue Breakdown](visuals/revenue_split.png)
-- **/docs**
-  - [Full Case Study (PDF)](docs/MyFitnessPal%20Case%20Study.pdf)
-- **/sources**
-  - [Sources](sources.md)
+- **/data** → example datasets (users, revenue split)  
+- **/models** → Excel model + Jupyter Notebook version  
+- **/visuals** → churn curve, ARPU chart, revenue breakdown  
+- **PDF** → [Full Case Study (PDF)](MyFitnessPal%20Case%20Study.pdf)
 
 
 ---
