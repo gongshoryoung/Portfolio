@@ -25,9 +25,7 @@
 
 ---
 
-## Repo Contents
-- **/data** → example datasets (users, revenue split)  
-- **/models** → Excel model + Jupyter Notebook version  
+## Repo Contents 
 - **/visuals** → churn curve, ARPU chart, revenue breakdown  
 - **PDF** → [Full Case Study (PDF)](MyFitnessPal%20Case%20Study.pdf)
 
