@@ -31,7 +31,3 @@
 
 
 ---
-
-## Tools
-- Excel for financial modeling  
-- Python (Pandas, Matplotlib) f
