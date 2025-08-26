@@ -29,7 +29,7 @@
 - **/data** → example datasets (users, revenue split)  
 - **/models** → Excel model + Jupyter Notebook version  
 - **/visuals** → churn curve, ARPU chart, revenue breakdown  
-- **PDF** → [📄 Full Case Study (PDF)](docs/MyFitnessPal%20Case%20Study.pdf)
+- **PDF** → [📄 Full Case Study (PDF)](MyFitnessPal%20Case%20Study.pdf)
 
 ---
 
