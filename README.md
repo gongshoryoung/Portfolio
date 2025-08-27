@@ -27,7 +27,7 @@
 
 ## Repo Contents 
 - **/visuals** → churn curve, ARPU chart, revenue breakdown  
-- **PDF** → [Full Case Study (PDF)](MyFitnessPal_Case_Study.pdf)
+- **PDF** → [Full Case Study (PDF)](MyFitnessPal_Full_Case_Study.pdf)
 
 
 ---
