@@ -1,0 +1,13 @@
+# R packages (via CRAN)
+r-base
+r-knitr
+r-rmarkdown
+r-ggplot2
+r-dplyr
+r-scales
+
+# System dependencies for PDF output (LaTeX)
+texlive
+texlive-latex-extra
+texlive-fonts-recommended
+texlive-xetex
