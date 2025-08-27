@@ -1,0 +1,63 @@
+---
+title: "MyFitnessPal Case Github"
+author: "Shoryoung Gong"
+date: "2025-08-26"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+---
+title: "MyFitnessPal Case Study Visualizations"
+author: "Shoryoung Gong"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(scales)
+
+# Parameters
+total_users <- 220e6
+revenue <- 310e6
+sub_rate <- 0.0258
+paying_users <- total_users * sub_rate
+free_users <- total_users - paying_users
+arpu <- revenue / total_users
+monthly_churn <- 0.3786   # from case study (≈ 37.9%)
+monthly_retention <- 1 - monthly_churn
+expected_lifetime <- 1 / monthly_churn  # ~2.64 months
+
+# Data for churn and retention
+months <- 0:6
+users_remaining <- total_users * (1 - monthly_churn) ^ months
+churn_df <- data.frame(months, users_remaining)
+retention_df <- data.frame(months, retention_rate = (1 - monthly_churn) ^ months)
+arpu_df <- data.frame(Metric = "ARPU", Value = arpu)
+
+# Churn curve
+p1 <- ggplot(churn_df, aes(x=months, y=users_remaining/1e6)) +
+  geom_line(color="red", size=1.2) +
+  geom_point(color="darkred", size=2) +
+  labs(title="Churn Curve: Users Over Time",
+       x="Months Since Start", y="Users Remaining (millions)") +
+  theme_minimal()
+
+# Retention curve
+p2 <- ggplot(retention_df, aes(x=months, y=retention_rate)) +
+  geom_line(color="blue", size=1.2) +
+  geom_point(color="darkblue", size=2) +
+  labs(title="Retention Curve",
+       x="Months Since Start", y="Retention Rate") +
+  scale_y_continuous(labels=percent) +
+  theme_minimal()
+
+
+# Print all plots
+p1; p2;
+
