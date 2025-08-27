@@ -26,7 +26,7 @@
 ---
 
 ## Repo Contents 
-- **/visuals** → churn curve,revenue breakdown  
+- **/visuals** → Churn_Curve,Retention_Curve  
 - **PDF** → [Full Case Study (PDF)](MyFitnessPal_Full_Case_Study.pdf)
 
 
