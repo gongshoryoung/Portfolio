@@ -26,8 +26,7 @@
 ---
 
 ## Repo Contents 
-- **/visuals** → churn curve[![Churn Curve](images/churn_curve.png)](https://myprojectdocs.com/churn-analysis)
-, ARPU chart, revenue breakdown  
+- **/visuals** → churn curve,revenue breakdown  
 - **PDF** → [Full Case Study (PDF)](MyFitnessPal_Full_Case_Study.pdf)
 
 
