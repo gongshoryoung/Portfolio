@@ -26,8 +26,8 @@
 ---
 
 ## Repo Contents 
-- **/visuals** → Churn_Curve,Retention_Curve  
-- **PDF** → [Full Case Study (PDF)](MyFitnessPal_Full_Case_Study.pdf)
+- **/visuals** → [Churn Curve](Churn_Curve.pdf),[Retention Curve  ](Retention_Curve.pdf)
+- **Case** → [Full Case Study (PDF)](MyFitnessPal_Full_Case_Study.pdf)
 
 
 ---
